@@ -34,11 +34,16 @@ class App extends React.Component {
 
   componentDidMount() {
     setTimeout(() => {
+      let particles = 100;
+      if(window.innerWidth <= 767){
+        particles = 30;
+      }
       Particles.init({
         selector: '#myCanvas',
         color: '#323330',
         connectParticles: true,
         minDistance: 140,
+        maxParticles: particles
       });
     },1000);
   }

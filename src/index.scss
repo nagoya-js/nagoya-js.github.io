@@ -25,3 +25,12 @@
   background-color:#f7df1e;
   width: 100%;
 }
+
+@media screen and (max-width:767px){
+  .inner{
+    font-size: 40px;
+  }
+  .main{
+    height:192px;
+  }
+}

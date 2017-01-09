@@ -4,6 +4,10 @@
   width:100%;
 }
 
+.linkCard *{
+  box-sizing: border-box;
+}
+
 .linkCard:link{
   text-decoration: none;
 }
@@ -25,4 +29,19 @@
 
 .linkCardTitle{
   font-size: 30px;
+}
+
+@media screen and (max-width:767px){
+  .linkCard{
+    display: block;
+  }
+  .linkCardImg{
+    display: block;
+  }
+  .linkCardDesc{
+    display: block;
+  }
+  .linkCardDesc{
+    padding:10px;
+  }
 }
