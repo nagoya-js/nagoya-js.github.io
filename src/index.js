@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import styles from './index.scss';
 import Section from './components/section/section.jsx';
 import LinkCard from './components/link-card/link-card.jsx';
+const AboutNagoyaJS = `Nagoya.js (なごやじぇいえす) は名古屋を中心に活動する JavaScript ユーザーのコミュニティです。\n
+勉強会を定期的に開催しています。\n
+JavaScript に興味があればどなたでも歓迎いたします。`;
 
 class App extends React.Component {
   render() {
@@ -17,9 +20,7 @@ class App extends React.Component {
           <canvas id="myCanvas" className={styles.myCanvas}></canvas>
         </div>
         <Section title="Nagoya.jsとは"
-          text="Nagoya.js (なごやじぇいえす) は名古屋を中心に活動する JavaScript ユーザーのコミュニティです。
-          勉強会を定期的に開催しています。
-          JavaScript に興味があればどなたでも歓迎いたします。" />
+          text={AboutNagoyaJS} />
           <Section title="次のイベント" text="">
             <LinkCard
               src="https://dzpp79ucibp5a.cloudfront.net/assets/doorkeeper_group_normal-125b448b722fa8c158516cf4b86aafda26b442af55a001418b0eb2acf7117961.gif"
