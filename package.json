@@ -22,9 +22,7 @@
     "url-loader": "^0.5.7"
   },
   "scripts": {
-    "start": "open http://localhost:3000/webpack-dev-server/ && webpack-dev-server --history-api-fallback",
-    "build-static": "node-sass static-markup/assets/styles/src/econotps-editor.scss static-markup/assets/styles/dist/econotps-editor.css",
-    "watch-static": "nodemon -e static-markup/assets/styles/src/*.* -x \"npm run build-static\""
+    "start": "open http://localhost:3000/webpack-dev-server/ && webpack-dev-server --history-api-fallback"
   },
   "devDependencies": {
     "babel-core": "^6.3.26",

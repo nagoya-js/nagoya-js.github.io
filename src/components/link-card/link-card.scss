@@ -1,0 +1,28 @@
+.linkCard{
+  background-color:#FFFFFF;
+  display: table;
+  width:100%;
+}
+
+.linkCard:link{
+  text-decoration: none;
+}
+
+.linkCardImg{
+  display: table-cell;
+  width:200px;
+}
+
+.linkCardDesc{
+  padding:20px;
+  font-size:16px;
+  display:table-cell;
+  color: #323330;
+  vertical-align: top;
+  text-align:left;
+  width: 100%;
+}
+
+.linkCardTitle{
+  font-size: 30px;
+}

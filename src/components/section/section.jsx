@@ -8,6 +8,7 @@ export default class Section extends React.Component {
         <div className={styles.sectionInner}>
           <h2 className={styles.sectionTitle}>{this.props.title}</h2>
           <p>{this.props.text}</p>
+          {this.props.children}
         </div>
       </div>
     );
