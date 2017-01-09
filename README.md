@@ -1,5 +1,7 @@
 # [Nagoya.js](https://nagoya-js.github.io)
 
+<img src="https://raw.githubusercontent.com/nagoya-js/nagoya-js.github.io/master/logo.png">
+
 ## Nagoya.jsとは
 
 Nagoya.js (なごやじぇいえす) は名古屋を中心に活動する JavaScript ユーザーのコミュニティです。
