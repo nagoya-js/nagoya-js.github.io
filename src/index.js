@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import styles from './index.scss';
+import GithubRibbon from './components/github-ribbon/github-ribbon.jsx';
 import Section from './components/section/section.jsx';
 import LinkCard from './components/link-card/link-card.jsx';
 const AboutNagoyaJS = `Nagoya.js (なごやじぇいえす) は名古屋を中心に活動する JavaScript ユーザーのコミュニティです。\n
@@ -11,6 +12,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <GithubRibbon href="https://github.com/nagoya-js/nagoya-js.github.io" />
         <div className={styles.main}>
           <div className={styles.outer}>
             <h1 className={styles.inner}>
@@ -29,7 +31,9 @@ class App extends React.Component {
             href="https://nagoya-js.doorkeeper.jp/events/54989"
           />
         </Section>
-        <Section title="お問い合わせ" text="質問等ありましたら Twitter で @steelydylan までお問い合わせください。"></Section>
+        <Section title="お問い合わせ" text="">
+          <p>質問等ありましたら Twitter で <a href="https://twitter.com/steelydylan">@steelydylan</a> までお問い合わせください。</p>
+        </Section>
       </div>
     );
   }
