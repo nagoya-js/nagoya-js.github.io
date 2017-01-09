@@ -9,4 +9,4 @@ Nagoya.js (なごやじぇいえす) は名古屋を中心に活動する JavaSc
 JavaScript に興味があればどなたでも歓迎いたします。
 
 ## お問い合わせ
-質問等ありましたら Twitter で [https://twitter.com/steelydylan](@twitter) までお問い合わせください。
+質問等ありましたら Twitter で [@steelydylan](https://twitter.com/steelydylan) までお問い合わせください。
