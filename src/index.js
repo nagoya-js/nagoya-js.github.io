@@ -21,14 +21,15 @@ class App extends React.Component {
         </div>
         <Section title="Nagoya.jsとは"
           text={AboutNagoyaJS} />
-          <Section title="次のイベント" text="">
-            <LinkCard
-              src="https://dzpp79ucibp5a.cloudfront.net/assets/doorkeeper_group_normal-125b448b722fa8c158516cf4b86aafda26b442af55a001418b0eb2acf7117961.gif"
-              title="Nagoya.js #1"
-              text="名古屋のフロントエンドの仲間を増やすためのJavaScript勉強会です。"
-              href="https://nagoya-js.doorkeeper.jp/events/54989"
-            />
-          </Section>
+        <Section title="次のイベント" text="">
+          <LinkCard
+            src="https://dzpp79ucibp5a.cloudfront.net/assets/doorkeeper_group_normal-125b448b722fa8c158516cf4b86aafda26b442af55a001418b0eb2acf7117961.gif"
+            title="Nagoya.js #1"
+            text="名古屋のフロントエンドの仲間を増やすためのJavaScript勉強会です。"
+            href="https://nagoya-js.doorkeeper.jp/events/54989"
+          />
+        </Section>
+        <Section title="お問い合わせ" text="質問等ありましたら Twitter で @steelydylan までお問い合わせください。"></Section>
       </div>
     );
   }
