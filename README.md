@@ -1,4 +1,4 @@
-# [Nagoya.js](https://nagoya-js.github.io)
+<a href="https://nagoya-js.github.io"><img src="https://raw.githubusercontent.com/nagoya-js/nagoya-js.github.io/master/logo.png"></a>
 
 ## Nagoya.jsとは
 
