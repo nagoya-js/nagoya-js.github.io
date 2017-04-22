@@ -26,7 +26,7 @@ class App extends React.Component {
         <Section title="次のイベント" text="">
           <LinkCard
             src="https://dzpp79ucibp5a.cloudfront.net/assets/doorkeeper_group_normal-125b448b722fa8c158516cf4b86aafda26b442af55a001418b0eb2acf7117961.gif"
-            title="Nagoya.js #3"
+            title="Nagoya.js #3 6/3(土)"
             text="名古屋のフロントエンドの仲間を増やすためのJavaScript勉強会です。"
             href="https://nagoya-js.doorkeeper.jp/events/59850"
           />
